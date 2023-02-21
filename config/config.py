@@ -24,7 +24,7 @@ API_HASH = getenv("API_HASH", "6628dfb7524ced6b536ea88cfb743878")
 BOT_TOKEN = getenv("BOT_TOKEN", "5296897168:AAHuGNf78aVAOmC-OWnMm-fk7K3xSxyBSNc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kontol:kontol@cluster0.rg9ig.mongodb.net/test?myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://SEMO1:SEMO1@cluster0.rusaedi.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,11 +40,11 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001708765292"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Tepthon Music")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music EvaN Team")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1229585839").split())
+    map(int, getenv("OWNER_ID", "5683932668").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/sourcemass/Sourcer",
+    "https://github.com/WYYYRR/Rsexx",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -65,13 +65,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "Tepthon"
+    "CHANNEL_SUDO", "L9L9XX"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "𝑇𝑒𝑎𝑚 𝑇𝑒𝑝𝑡ℎ𝑜𝑛"
+    "YAFA_NAME", "Team FoX"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/Tepthon"
+   " YAFA_CHANNEL", "https://t.me/L9L9XX"
 )  # رابط قناتك
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
